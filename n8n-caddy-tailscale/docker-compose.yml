@@ -29,7 +29,7 @@ services:
     networks:
       - caddy
     env_file:
-      - .env
+      - stack.env
 
   tailscale:
     image: tailscale/tailscale
